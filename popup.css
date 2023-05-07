@@ -1,0 +1,52 @@
+/*The tabs in the list will have a consistent background color, 
+rounded corners, and a subtle drop shadow. 
+The hover effect increases the drop shadow to make it clear 
+that the tabs are interactive. The font sizes and weights 
+for the headings and subheadings have been altered to create a 
+greater visual hierarchy. 
+a new font family and background color has been added to improve 
+the overall look and feel of the page. */
+
+
+body {
+  width: 20rem;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 1rem 0;
+}
+
+li {
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+li:hover {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.pathname {
+  font-size: 0.875rem;
+  color: #808080;
+  margin: 0;
+}

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Manager",
+  "description": "Organize your open tabs for a less cluttered workspace",
+  "version": "1.0",
+  "icons": {
+    "16": "images/TM16x16.png",
+    "32": "images/TM32x32.png",
+    "48": "images/TM48x48.png",
+    "128": "images/TM128x128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "<all_urls>*"
+  ],
+    "permissions": [
+        "tabGroups", "tabs", "storage"],
+
+  "background": {
+    "service_worker": "popup.js"}
+}
+  
+  
+  
